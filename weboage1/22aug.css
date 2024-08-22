@@ -1,0 +1,72 @@
+.container{
+    background-color:rgb(83, 11, 11);
+    height:535px;
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px; */
+    gap:5px;
+    grid-template-areas: "temp1 temp2 temp3 temp4"
+    "temp5 temp5 temp3 temp6"
+    "temp7 temp7 temp8 temp6"
+    "temp7 temp7 temp9 temp9";
+}
+#temp1{
+    grid-area: temp1;
+}
+#temp2{
+    grid-area: temp2;
+}
+#temp3{
+    grid-area: temp3;
+}
+#temp4{
+    grid-area: temp4;
+}
+#temp5{
+    grid-area: temp5;
+}
+#temp6{
+    grid-area: temp6;
+}
+#temp7{
+    grid-area:temp7
+}
+#temp8{
+    grid-area: temp8;
+}
+#temp9{
+    grid-area:temp9
+}
+#im1{
+    border-radius: 10px;
+    height: 22vw;
+}
+#im2{
+    border-radius: 10px;
+    height: 22vw;
+}
+#im3{
+    border-radius: 10px;
+    height: 45vw;
+}
+#im4{
+    border-radius: 10px;
+    height: 22vw;
+}
+#im5{
+    border-radius: 10px;
+    height: 22vw;
+}
+#im6{
+    border-radius: 10px;
+    height: 39vw;
+}
+#im7{
+    border-radius: 10px;
+}
+#im8{
+    border-radius: 10px;
+}
+#im9{
+    border-radius: 10px;
+}
